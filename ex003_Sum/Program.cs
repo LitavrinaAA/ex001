@@ -1,4 +1,6 @@
-﻿int numa = 3;
-int numb = 5;
+﻿int numa = new Random().Next(1,10);
+Console.WriteLine(numa);
+int numb = new Random().Next(1,10);
+Console.WriteLine(numb);
 int result = numa + numb;
-Console.Write(result);
+Console.WriteLine(result);
